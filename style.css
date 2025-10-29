@@ -1,0 +1,81 @@
+/* child selector */
+/* div>p{
+    color: blueviolet;
+} */
+
+/* descendent selector */
+/* 
+div p{
+    color: aqua;
+} */
+
+/* adjescent sibling selector */
+/* 
+div+p{
+    color: red;
+} */
+
+/* genral sibling selector */
+/* div+p{
+    color: gold;
+} */
+/* h2 ~ p {
+  color: purple;
+} */
+@font-face{
+    font-family: "myfont";
+    src: url("./Lobster/Lobster-Regular.ttf" )format(".ttf");
+}
+body{
+    font-family:" myfont";
+     background-image: url(./pexels-padrinan-255379.jpg),url("./pexels-padrinan-255379.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 1;
+     background-attachment: fixed;
+}
+div.parent{
+     font-family:" myfont";
+    color:rgb(rgb(221, 74, 74), rgb(178, 211, 178), rgb(98, 98, 151));
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 1;
+    
+}
+
+
+a{
+   /* cursor: alias; */
+   /* cursor: all-scroll; */
+   /* cursor: pointer; */
+   /* cursor: auto; */
+   /* cursor: cell; */
+   /* cursor: col-resize; */
+   /* cursor: context-menu; */
+   /* cursor: copy; */
+   /* cursor: crosshair; */
+   /* cursor: default; */
+   /* cursor: e-resize; */
+   /* cursor: ew-resize; */
+   /* cursor: grab; */
+   /* cursor: zoom-in; */
+   /* cursor: text; */
+   /* cursor: help; */
+   cursor: url("./16-10-43-442_512.webp");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
