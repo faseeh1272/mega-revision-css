@@ -112,17 +112,27 @@ div.display p{
     height: 100px;
     background-color: aqua;
     position: absolute;
-  transform: scale(50px, 20px);
+   
+  transform:translate(50px, 20px);
+  transform: rotate(45deg);
+  transform: scale(1.5);
+  transform: skew(20deg, 10deg);
+ 
+}
+.box-one:hover{
+/* transition: transform 0.5s; */
+transform: scale(2) rotate(10deg);
 }
 
- .box-two{
+ /* .box-two{
     width: 100px;
     height: 100px;
     background-color: rgb(45, 15, 216);
-    position: absolute; 
-    z-index:9999;
+    position: absolute;  */
+
+    /* z-index:9999; */
    
-}
+
 
 /* 
  .box-three{
