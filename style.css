@@ -99,16 +99,41 @@ div.display p{
 }
 
 .main{
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     background-color: black;
+    position: relative;
+ /* opacity: 0.99; */
+    
 }
 
-div.main.box-one{
+ .box-one{
     width: 100px;
     height: 100px;
     background-color: aqua;
+    position: absolute;
+  transform: scale(50px, 20px);
 }
+
+ .box-two{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(45, 15, 216);
+    position: absolute; 
+    z-index:9999;
+   
+}
+
+/* 
+ .box-three{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(216, 96, 17); */
+    /* position: absolute; */
+    /* z-index: 2; */
+/* } */
+
+
 
 
 
