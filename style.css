@@ -24,10 +24,10 @@ div+p{
 } */
 @font-face{
     font-family: "myfont";
-    src: url("./Lobster/Lobster-Regular.ttf" )format(".ttf");
+    src: url("./font/Badeen_Display/BadeenDisplay-Regular.ttf") format("truetype");
 }
 body{
-    font-family:" myfont";
+   
      background-image: url(./pexels-padrinan-255379.jpg),url("./pexels-padrinan-255379.jpg");
      background-position: center;
      background-repeat: no-repeat;
@@ -36,15 +36,22 @@ body{
      background-attachment: fixed;
 }
 div.parent{
-     font-family:" myfont";
+     font-family: myfont;
     color:rgb(rgb(221, 74, 74), rgb(178, 211, 178), rgb(98, 98, 151));
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     opacity: 1;
     
 }
+ 
+div {
+  font-family: myFirstFont;
+}
+ 
+
 
 
 a{
+    
    /* cursor: alias; */
    /* cursor: all-scroll; */
    /* cursor: pointer; */
@@ -63,6 +70,26 @@ a{
    /* cursor: help; */
    cursor: url("./16-10-43-442_512.webp");
 
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* 
+ p:nth-type-child(1){
+    color: brown;
+     
+} */
+
+div.n p:nth-child(4){
+    color: green;
+    font-size: 40px;
+}
+p:nth-of-type(5){
+    color: aquamarine;
+    transform:  ;
 }
 
 
