@@ -89,8 +89,29 @@ div.n p:nth-child(4){
 }
 p:nth-of-type(5){
     color: aquamarine;
-    transform:  ;
+    
 }
+
+div.display p{
+      display: none;
+    visibility: hidden;
+    
+}
+
+.main{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+div.main.box-one{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+
+
 
 
 
