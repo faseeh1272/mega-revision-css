@@ -22,57 +22,61 @@ div+p{
 /* h2 ~ p {
   color: purple;
 } */
-@font-face{
+@font-face {
     font-family: "myfont";
     src: url("./font/Badeen_Display/BadeenDisplay-Regular.ttf") format("truetype");
 }
-body{
-   
-     background-image: url(./pexels-padrinan-255379.jpg),url("./pexels-padrinan-255379.jpg");
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     opacity: 1;
-     background-attachment: fixed;
+
+body {
+
+    /* background-image: url(./pexels-padrinan-255379.jpg), url("./pexels-padrinan-255379.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    background-attachment: fixed;
 }
-div.parent{
-     font-family: myfont;
-    color:rgb(rgb(221, 74, 74), rgb(178, 211, 178), rgb(98, 98, 151));
+
+div.parent {
+    font-family: myfont;
+    color: rgb(rgb(221, 74, 74), rgb(178, 211, 178), rgb(98, 98, 151));
     /* font-family: 'Courier New', Courier, monospace; */
     opacity: 1;
-    
+
 }
- 
+
 div {
-  font-family: myFirstFont;
-}
- 
-
-
-
-a{
-    
-   /* cursor: alias; */
-   /* cursor: all-scroll; */
-   /* cursor: pointer; */
-   /* cursor: auto; */
-   /* cursor: cell; */
-   /* cursor: col-resize; */
-   /* cursor: context-menu; */
-   /* cursor: copy; */
-   /* cursor: crosshair; */
-   /* cursor: default; */
-   /* cursor: e-resize; */
-   /* cursor: ew-resize; */
-   /* cursor: grab; */
-   /* cursor: zoom-in; */
-   /* cursor: text; */
-   /* cursor: help; */
-   cursor: url("./16-10-43-442_512.webp");
-
+    font-family: myFirstFont;
 }
 
-img{
+body {
+    filter: invert(100%)
+}
+
+
+a {
+
+    /* cursor: alias; */
+    /* cursor: all-scroll; */
+    /* cursor: pointer; */
+    /* cursor: auto; */
+    /* cursor: cell; */
+    /* cursor: col-resize; */
+    /* cursor: context-menu; */
+    /* cursor: copy; */
+    /* cursor: crosshair; */
+    /* cursor: default; */
+    /* cursor: e-resize; */
+    /* cursor: ew-resize; */
+    /* cursor: grab; */
+    /* cursor: zoom-in; */
+    /* cursor: text; */
+    /* cursor: help; */
+    cursor: url("./16-10-43-442_512.webp");
+
+}
+
+img {
     display: block;
     margin: 0 auto;
 }
@@ -83,55 +87,57 @@ img{
      
 } */
 
-div.n p:nth-child(4){
+div.n p:nth-child(4) {
     color: green;
     font-size: 40px;
 }
-p:nth-of-type(5){
+
+p:nth-of-type(5) {
     color: aquamarine;
-    
+
 }
 
-div.display p{
-      display: none;
+div.display p {
+    display: none;
     visibility: hidden;
-    
+
 }
 
-.main{
+.main {
     width: 500px;
     height: 500px;
     background-color: black;
     position: relative;
- /* opacity: 0.99; */
-    
+    /* opacity: 0.99; */
+
 }
 
- .box-one{
+.box-one {
     width: 100px;
     height: 100px;
     background-color: aqua;
     position: absolute;
-   
-  transform:translate(50px, 20px);
-  transform: rotate(45deg);
-  transform: scale(1.5);
-  transform: skew(20deg, 10deg);
- 
-}
-.box-one:hover{
-/* transition: transform 0.5s; */
-transform: scale(2) rotate(10deg);
+
+    transform: translate(50px, 20px);
+    transform: rotate(45deg);
+    transform: scale(1.5);
+    transform: skew(20deg, 10deg);
+
 }
 
- /* .box-two{
+.box-one:hover {
+    /* transition: transform 0.5s; */
+    transform: scale(2) rotate(10deg);
+}
+
+/* .box-two{
     width: 100px;
     height: 100px;
     background-color: rgb(45, 15, 216);
     position: absolute;  */
 
-    /* z-index:9999; */
-   
+/* z-index:9999; */
+
 
 
 /* 
@@ -139,26 +145,62 @@ transform: scale(2) rotate(10deg);
     width: 100px;
     height: 100px;
     background-color: rgb(216, 96, 17); */
-    /* position: absolute; */
-    /* z-index: 2; */
+/* position: absolute; */
+/* z-index: 2; */
 /* } */
+div.image img {
+    /* filter: blur(3px) contrast(120%); */
+    transition: 0.4s;
+    filter: grayscale(100%);
+}
+
+div.image img:hover {
+    filter: grayscale(0%);
+}
 
 
 
 
 
 
+div{
+    background-color: transparent;
+}
+
+/* color keywords 
+1: transpeant
+2: currentcolor
+3 : inherit
+ */
+
+/* transparent
+the trasparent keyword is used to make a colortransparent
+
+
+  */
+/* div.css-advance-practice {
+    background-image: url("https://img.freepik.com/free-photo/vertical-shot-road-going-through-beautiful-colorful-trees-captured-day-time_181624-8309.jpg?semt=ais_hybrid&w=740&q=80");
+    background-color: transparent;
+} */
 
 
 
 
 
+div.css-advance-practice {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 5px 5px white;
+    color: brown;
+    border: 10px solid currentColor;
+    background-color: currentColor;
 
+}
 
-
-
-
-
-
-
-
+h5 {
+    border: inherit;
+    background-color: transparent;
+    /* text-shadow: 0 0 3px #ff0000; */
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
